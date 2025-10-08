@@ -1,12 +1,29 @@
-# React + Vite
+🏢 Job Portal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An online job portal built with React.js and Firebase, designed to connect job seekers with employers.
+This project allows users to search, filter, and view job listings in real time.
 
-Currently, two official plugins are available:
+🚀 Features
+🔎 Job Search & Filters – Search by job title, location, type, and experience.
+📅 Real-time Listings – Jobs are fetched directly from Firebase Firestore.
+🖥️ Responsive UI – Optimized for desktop, tablet, and mobile using Tailwind CSS.
+🕒 Relative Time Display – Jobs show “posted X hours/days ago” using Day.js.
+⚡ Reusable Components – Modular React components for easy scaling.
+🛠️ Tech Stack
+Frontend: React.js, Tailwind CSS
+Backend/Database: Firebase (Firestore)
+Other Tools: Git, GitHub, Vite, Day.js
+⚙️ Installation & Setup
+Follow these steps to run the project locally:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 1. Clone the repository
+git clone https://github.com/YourUsername/React-Projects.git
 
-## Expanding the ESLint configuration
+# 2. Navigate to project folder
+cd React-Projects/Job-Portal
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
